@@ -10,20 +10,15 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Certifications from "./pages/Certifications";
 import Portfolio from "./pages/Portfolio";
-
 function App() {
   const location = useLocation();
-
   return (
     <>
       <CustomCursor />
-      
       {/* Persistent 3D Background */}
       <ParticleField />
-
       {/* Navigation */}
       <Navbar />
-
       {/* Page Content */}
       <div className="page-content">
         <AnimatePresence mode="wait">
