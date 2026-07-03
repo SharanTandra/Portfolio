@@ -6,7 +6,7 @@ function About() {
     <div style={{ minHeight: '100vh' }}>
       <section className="section">
 
-        {/* Section Header */}
+
         <AnimatedSection>
           <div className="section-header">
             <h1>
@@ -17,7 +17,7 @@ function About() {
           </div>
         </AnimatedSection>
 
-        {/* About Cards */}
+
         <div className="grid-2" style={{ marginBottom: '80px' }}>
           <Card1
             icon="👨‍💻"
@@ -33,7 +33,7 @@ function About() {
           />
         </div>
 
-        {/* Timeline */}
+
         <AnimatedSection delay={0.1}>
           <h2 style={{ marginBottom: '40px' }}>
             My <span className="gradient-text">Journey</span>

@@ -15,11 +15,11 @@ function App() {
   return (
     <>
       <CustomCursor />
-      {/* Persistent 3D Background */}
+
       <ParticleField />
-      {/* Navigation */}
+
       <Navbar />
-      {/* Page Content */}
+      
       <div className="page-content">
         <AnimatePresence mode="wait">
           <PageTransition key={location.pathname}>
